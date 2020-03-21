@@ -1,11 +1,11 @@
 <ul class="sidebar navbar-nav">
-    <li class="nav-item active">
-        <a class="nav-link" href="index.html">
-            <i class="fas fa-fw fa-tachometer-alt"></i>
-            <span>Dashboard</span>
+    <li class="nav-item">
+        <a class="nav-link" href="index.php">
+            <i class="fas fa-fw fa-home"></i>
+            <span>Home</span>
         </a>
     </li>
-    <li class="nav-item dropdown">
+    <!-- <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="pagesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             <i class="fas fa-fw fa-folder"></i>
             <span>Pages</span>
@@ -20,15 +20,25 @@
             <a class="dropdown-item" href="404.html">404 Page</a>
             <a class="dropdown-item" href="blank.html">Blank Page</a>
         </div>
+    </li> -->
+    <li class="nav-item">
+        <a class="nav-link" href="index.php?page=admin">
+            <i class="fas fa-fw fa-user"></i>
+            <span>Admin</span></a>
     </li>
     <li class="nav-item">
-        <a class="nav-link" href="charts.html">
-            <i class="fas fa-fw fa-chart-area"></i>
-            <span>Charts</span></a>
+        <a class="nav-link" href="index.php?page=kategori">
+            <i class="fas fa-fw fa-border-all"></i>
+            <span>Kategori</span></a>
     </li>
     <li class="nav-item">
-        <a class="nav-link" href="tables.html">
-            <i class="fas fa-fw fa-table"></i>
-            <span>Tables</span></a>
+        <a class="nav-link" href="index.php?page=berita">
+            <i class="fas fa-fw fa-book"></i>
+            <span>Berita</span></a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="index.php?page=testimoni">
+            <i class="fas fa-fw fa-comment"></i>
+            <span>Testimoni</span></a>
     </li>
 </ul>

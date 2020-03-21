@@ -1,43 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<?php include 'koneksi.php' ?>
+
 <head>
   <?php include 'partial/head.php';  ?>
-    <title>Berita Mediatama</title>
-  </head>
+  <title>Berita Mediatama</title>
+</head>
 
-  <body id="page-top">
-    <?php include 'partial/top_bar.php' ?>
-    
-    <div id="wrapper">
-      <!-- Sidebar -->
-      <?php include 'partial/side_bar.php' ?>
+<body id="page-top">
+  <?php include 'partial/top_bar.php' ?>
 
-      <div id="content-wrapper">
-        <?php include 'home.php' ?>
+  <div id="wrapper">
+    <!-- Sidebar -->
+    <?php include 'partial/side_bar.php' ?>
 
-        <!-- /.container-fluid -->
+    <div id="content-wrapper">
+      <?php include 'content.php' ?>
 
-        <!-- Sticky Footer -->
-        <?php include 'partial/footer.php' ?>
+      <!-- /.container-fluid -->
 
-      </div>
-      <!-- /.content-wrapper -->
+      <!-- Sticky Footer -->
+      <?php include 'partial/footer.php' ?>
 
     </div>
-    <!-- /#wrapper -->
+    <!-- /.content-wrapper -->
 
-    <!-- Scroll to Top Button-->
-    <a class="scroll-to-top rounded" href="#page-top">
-      <i class="fas fa-angle-up"></i>
-    </a>
+  </div>
+  <!-- /#wrapper -->
 
-    <!-- Logout Modal-->
-    <?php include 'partial/modal.php' ?>
+  <!-- Scroll to Top Button-->
+  <a class="scroll-to-top rounded" href="#page-top">
+    <i class="fas fa-angle-up"></i>
+  </a>
 
-    <!-- source JS -->
-    <?php include 'partial/js.php' ?>
+  <!-- Logout Modal-->
+  <?php include 'partial/modal.php' ?>
 
-  </body>
+  <!-- source JS -->
+  <?php include 'partial/script.php' ?>
+
+</body>
 
 </html>
