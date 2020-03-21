@@ -2,24 +2,19 @@
 <html lang="en">
 
 <head>
-
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
-
-  <title>SB Admin - Login</title>
-
-  <!-- Custom fonts for this template-->
-  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
-
-  <!-- Custom styles for this template-->
-  <link href="css/sb-admin.css" rel="stylesheet">
-
+  <title>Login</title>
+  <?php include 'partial/head.php';  ?>
 </head>
 
-<body class="bg-dark">
+<body class="bg-secondary">
+  <nav class="navbar navbar-expand navbar-dark bg-info static-top ">
+
+    <a class="navbar-brand mr-1" href="index.php">Selamat Datang</a>
+    <!-- Navbar Search -->
+    <form class="d-none d-md-inline-block form-inline ml-auto mr-0 mr-md-3 my-2 my-md-0">
+    </form>
+
+  </nav>
 
   <div class="container">
     <div class="card card-login mx-auto mt-5">
@@ -38,30 +33,25 @@
               <label for="inputPassword">Password</label>
             </div>
           </div>
-          <div class="form-group">
+          <!-- <div class="form-group">
             <div class="checkbox">
               <label>
                 <input type="checkbox" value="remember-me">
                 Remember Password
               </label>
             </div>
-          </div>
+          </div> -->
           <a class="btn btn-primary btn-block" href="index.html">Login</a>
         </form>
         <div class="text-center">
-          <a class="d-block small mt-3" href="register.html">Register an Account</a>
-          <a class="d-block small" href="forgot-password.html">Forgot Password?</a>
+          <a class="d-block small mt-3" href="register.php">Register di sini!</a>
         </div>
       </div>
     </div>
   </div>
 
-  <!-- Bootstrap core JavaScript-->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-  <!-- Core plugin JavaScript-->
-  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+  <!-- source JS -->
+  <?php include 'partial/script.php' ?>
 
 </body>
 

@@ -1,4 +1,4 @@
 <?php 
-    $kon = mysqli_connect('localhost','root','','db_dasar_mysql');
-    
+    $kon = mysqli_connect('localhost','root','','db_berita_mediatama');
+
 ?>
