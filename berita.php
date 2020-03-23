@@ -5,14 +5,14 @@
         <li class="breadcrumb-item">
             <a href="index.php">Home</a>
         </li>
-        <li class="breadcrumb-item active">Admin</li>
+        <li class="breadcrumb-item active">Berita</li>
     </ol>
 
     <!-- DataTables Example -->
     <div class="card mb-3">
         <div class="card-header">
             <i class="fas fa-table"></i>
-            Data Admin</div>
+            Data Berita</div>
         <div class="card-body">
             <div class="table-responsive">
                 <a href="index.php?page=admin_tambah" class="btn btn-primary mb-4">Tambah Data</a>
