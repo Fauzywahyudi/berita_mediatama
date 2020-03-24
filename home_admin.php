@@ -1,25 +1,8 @@
-<?php
-// session_start();
-// include 'koneksi.php';
-// if (!empty($_SESSION["username"]) and !empty($_SESSION["passuser"])) {
-//   header('location:home_admin.php');
-// }else{
-//   header('location:login.php');
-// }
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 
 <?php
 session_start();
-if (empty($_SESSION['admin'])) {
-  echo "<script>
-  alert('Anda Harus Login');
-  window.location='login.php';
-</script>";
-}
-
 include 'koneksi.php'
 ?>
 
